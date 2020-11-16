@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exames admissão</title>
+    <link rel="stylesheet" href="estilo-copy.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="main-menu">
+        <button id="but" onclick="button()">≡</button>
+        <header id="Inicio">            
+        <ul id="">
+            <h1>Menu principal</h1>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="exame10.html" >Exames 10<sup>a</sup> classe</a></li>
+            <li><a href="exame12.html">Exames 12<sup>a</sup> classe</a></li>
+            <li><a href="#" onclick='showdecima()'>Exames de admissão</a></li>
+            <li><a href="editais.html" >Editais</a></li> 
+
+        </ul>
+
+        </header>
+        <div id="content">
+            
+            <h1>Exames de admissão</h1>
+            <a onclick="showdisciplina('UEM')" id="ver" href="#">Exames de admissão UEM<br/></a>
+            <div id="UEM" class="hidden">
+           
+                
+                
+                
+                    <a href="#" onclick="showdisciplina('pt')">Exames de Português <br/></a>
+                    <div id="pt" class="hidden">
+                        <ul>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_2005.pdf"> Exame de Português UEM 2005</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_2007.pdf">Exame de Português UEM 2007</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_2009.pdf">Exame de Português UEM 2009</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_I_2010.pdf">Exame de Português-I UEM 2010</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_II_2010.pdf">Exame de Português-II UEM 2010</a></li>
+                           
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues II_2011.pdf">Exame de Português-II UEM 2010</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues I_2011.pdf">Exame de Português-I UEM 2011</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_2013.pdf"> Exame_Portugues_UEM_2013</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_II_2013.pdf">Exame_Portugues_II_UEM_2013</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_I_2014.pdf">Exame_Portugues_I_UEM_2014</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues_II_2014.pdf">Exame_Portugues_II_UEM_2014</a></li>
+                           <li><a href="UEM/Exames de Portugues/Exame_Portugues-I_2016.pdf">Exame_Portugues-I_UEM_2016<br/></a></li>
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    
+                
+                <a href="#" onclick="showdisciplina('mat')">Exames de Matemática<br/></a>
+                <div id="mat" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2004.pdf">Exame_Matematica_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2005.pdf">Exame_Matematica_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2007.pdf">Exame_Matematica_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2008.pdf">Exame_Matematica_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2009.pdf">Exame_Matematica_UEM_2009</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2010.pdf">Exame_Matematica_UEM_2010</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2011.pdf">Exame_Matematica_UEM_2011</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2013.pdf">Exame_Matematica_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2014.pdf">Exame_Matematica_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2016.pdf">Exame_Matematica_UEM_2016</a></li>
+                        <li><a href="UEM/Exames de Matematica/Exame_Matematica_2017.pdf">Exame_Matematica_UEM_2017<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('bio')">Exames de Biologia<br/></a>
+                <div id="bio" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2004.pdf">Exame_Biologia_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2005.pdf">Exame_Biologia_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2007.pdf">Exame_Biologia_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2008.pdf">Exame_Biologia_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2009.pdf">Exame_Biologia_UEM_2009</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2010.pdf">Exame_Biologia_UEM_2010</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2011.pdf">Exame_Biologia_UEM_2011</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2013.pdf">Exame_Biologia_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2014.pdf">Exame_Biologia_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Biologia/Exame_Biologia_2016.pdf">Exame_Biologia_UEM_2016</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('qui')">Exames de Quimica<br/></a>
+                <div id="qui" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2004.pdf">Exame_Quimica_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2005.pdf">Exame_Quimica_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2006.pdf">Exame_Quimica_UEM_2006</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2007.pdf">Exame_Quimica_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2008.pdf">Exame_Quimica_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2013.pdf">Exame_Quimica_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2014.pdf">Exame_Quimica_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Quimica/Exame_Quimica_2016.pdf">Exame_Quimica_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('fis')">Exames de Fisica<br/></a>
+                <div id="fis" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2004.pdf">Exame_Fisica_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2006.pdf">Exame_Fisica_UEM_2006</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2007.pdf">Exame_Fisica_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2008.pdf">Exame_Fisica_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2013.pdf">Exame_Fisica_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2014.pdf">Exame_Fisica_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Fisica/Exame_Fisica_2016.pdf">Exame_Fisica_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('en')">Exames de Ingles<br/></a>
+                <div id="en" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Ingles/Exame_de_Ingles_de_2004.pdf">Exame_Ingles_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2005.pdf">Exame_Ingles_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2006.pdf">Exame_Ingles_UEM_2006</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2007.pdf">Exame_Ingles_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2013.pdf">Exame_Ingles_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2014.pdf">Exame_Ingles_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Ingles/Exame_Ingles_2016.pdf">Exame_Ingles_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('his')">Exames de Historia<br/></a>
+                <div id="his" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Historia/Exame_de_Historia_de_2005.pdf">Exame_Historia_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Historia/Exame_Historia_2007.pdf">Exame_Historia_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Historia/Exame_Historia_2008.pdf">Exame_Historia_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Historia/Exame_Historia_ 2013.pdf">Exame_Historia_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Historia/Exame_Historia_2014.pdf">Exame_Historia_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Historia/Exame_Historia_2016.pdf">Exame_Historia_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('fil')">Exames de Filosofia<br/></a>
+                <div id="fil" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Filosofia/Exame_Filosofia_2011.pdf">Exame_Filosofia_UEM_2011</a></li>
+                        <li><a href="UEM/Exames de Filosofia/Exame_Filosofia_2013.pdf">Exame_Filosofia_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Filosofia/Exame_Filosofia_2014.pdf">Exame_Filosofia_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Filosofia/Exame_Filosofia_2016.pdf">Exame_Filosofia_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+                
+                <a href="#" onclick="showdisciplina('fra')">Exames de Frances<br/></a>
+                <div id="fra" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2004.pdf">Exame_Frances_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2005.pdf">Exame_Frances_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2007.pdf">Exame_Frances_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2013.pdf">Exame_Frances_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2014.pdf">Exame_Frances_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Frances/Exame_Frances_2016.pdf">Exame_Frances_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+
+                <a href="#" onclick="showdisciplina('des')">Exames de Desenho<br/></a>
+                <div id="des" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2005-parte_1.PDF">Exame_Desenho_UEM_2005_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2007.pdf">Exame_Desenho_UEM_2007_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2009.pdf">Exame_Desenho_UEM_2009</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2009_Parte_I.pdf">Exame_Desenho_UEM_2009_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2009_ParteII.pdf">Exame_Desenho_UEM_2009_parte_2</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2010_Parte_II.pdf">Exame_Desenho_UEM_2010_parte_2</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2011.pdf">Exame_Desenho_UEM_2011_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2011_Parte_II.pdf">Exame_Desenho_UEM_2011_parte_2</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2012_Parte I.pdf">Exame_Desenho_UEM_2012_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2012_Parte II.pdf">Exame_Desenho_UEM_2012_parte_2</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_2013.pdf">Exame_Desenho_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_Parte_1_2014.pdf">Exame_Desenho_UEM_2014_parte_1</a></li>
+                        <li><a href="UEM/Exames de Desenho/Exame_Desenho_Parte_2_2014.pdf">Exame_Desenho_UEM_2014_parte_2<br/></a></li>
+                    </ul>
+                </div>
+
+                <a href="#" onclick="showdisciplina('geo')">Exames de Geografia<br/></a>
+                <div id="geo" class="hidden">
+                    <ul>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2004.pdf">Exame_Geografia_UEM_2004</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2005.pdf">Exame_Geografia_UEM_2005</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2006.pdf">Exame_Geografia_UEM_2006</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2007.pdf">Exame_Geografia_UEM_2007</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2008.pdf">Exame_Geografia_UEM_2008</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2013.pdf">Exame_Geografia_UEM_2013</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2014.pdf">Exame_Geografia_UEM_2014</a></li>
+                        <li><a href="UEM/Exames de Geografia/Exame_Geografia_2016.pdf">Exame_Geografia_UEM_2016<br/></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        
+            <a href="#" onclick="showdisciplina('ISRI')" id="verisri"><br/><br/>Exames de admissão UJC/ISRI<br/></a>
+            <div id="ISRI" class="hidden">
+                <ul>
+                    <li><a href="ISRI/ISRI_Historia_2007.pdf">Exame_Historia_ISRI_2007</a></li>
+                    <li><a href="ISRI/ISRI_Historia_2011.pdf">Exame_Historia_ISRI_2011</a></li>
+                    <li><a href="ISRI/ISRI_Portugues_II_2013.pdf">Exame_Portugues_ISRI_2013</a></li>
+                    <li><a href="ISRI/ISRI-Geografia-2007.pdf">Exaxame_geografia_ISRI_2007</a></li>
+                    <li><a href="ISRI/ISRI_Geografia_2010.pdf">Exame_Geografia_ISRI_2010</a></li>
+                    <li><a href="ISRI/ISRI_Geografia_2013.pdf">Exame_Geografia_ISRI_2013</a></li>
+                    <li><a href="ISRI/ISRI_Geografia_2015.pdf">Exame_Geografia_ISRI_2015</a></li>
+                    <li><a href="ISRI/ISRI-Portugues-II-2015.pdf">Exame_Portugues-II_2015</a></li>
+                    <li><a href="ISRI/Exame_Matematica_2017.pdf">Exame_Matematica_ISRI_2017</a></li>
+                </ul>
+            </div>
+
+
+            
+            <a href="#" onclick="showdisciplina('UP')" id="verup"><br/><br/>Exames de admissão UP<br/></a>
+            <div id="UP" class="hidden">
+                <a href="#" onclick="showdisciplina('port')">Exames de Portugues<br/></a>
+                <div id="port" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2009.pdf">Exame-de-Portugues-UP-2009</a></li>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2013.pdf">Exame-de-Portugues-UP-2013</a></li>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2016.pdf">Exame-de-Portugues-UP-2016</a></li>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2017.pdf">Exame-de-Portugues-UP-2017</a></li>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2018.pdf">Exame-de-Portugues-UP-2018</a></li>
+                        <li><a href="UP/Exames de Portugues/Exame-de-Portugues-UP-2019.pdf">Exame-de-Portugues-UP-2019</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('mate')">Exames de Matematica<br/></a>
+                <div id="mate" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2010.pdf">Exame-de-Matematica-UP-2010</a></li>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2011.pdf">Exame-de-Matematica-UP-2011</a></li>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2014.pdf">Exame-de-Matematica-UP-2014</a></li>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2016.pdf">Exame-de-Matematica-UP-2016</a></li>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2017.pdf">Exame-de-Matematica-UP-2017</a></li>
+                        <li><a href="UP/Exames de Matematica/Exame-de-Matematica-UP-2018.pdf">Exame-de-Matematica-UP-2018<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('biol')">Exames de Biologia<br/></a>
+                <div id="biol" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP_-2010.pdf">Exame-de-Biologia-UP-2010</a></li>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP_-2014.pdf">Exame-de-Biologia-UP-2014</a></li>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP-2016.pdf">Exame-de-Biologia-UP-2016</a></li>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP-2017.pdf">Exame-de-Biologia-UP-2017</a></li>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP-2018.pdf">Exame-de-Biologia-UP-2018</a></li>
+                        <li><a href="UP/Exames de Biologia/Exame-de-Biologia-UP-2019.pdf">Exame-de-Biologia-UP-2019</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('filo')">Exames de Filosofia<br/></a>
+                <div id="filo" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP_-2010.pdf">Exame-de-Filosofia-UP-2010</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP_-2013.pdf">Exame-de-Filosofia-UP-2013</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP_-2014.pdf">Exame-de-Filosofia-UP-2014</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP-2016.pdf">Exame-de-Filosofia-UP-2016</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP-2017.pdf">Exame-de-Filosofia-UP-2017</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP-2018.pdf">Exame-de-Filosofia-UP-2018</a></li>
+                        <li><a href="UP/Exames de Filosofia/Exame-de-Filosofia-UP-2019.pdf">Exame-de-Filosofia-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('fisi')">Exames de Fisica<br/></a>
+                <div id="fisi" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2004.pdf">Exame-de-Fisica-UP-2004</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2013.pdf">Exame-de-Fisica-UP-2013</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2014.pdf">Exame-de-Fisica-UP-2014</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2016.pdf">Exame-de-Fisica-UP-2016</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2017.pdf">Exame-de-Fisica-UP-2017</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2018.pdf">Exame-de-Fisica-UP-2018</a></li>
+                        <li><a href="UP/Exames de Fisica/Exame-de-Fisica-UP-2019.pdf">Exame-de-Fisica-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                
+
+                <a href="#" onclick="showdisciplina('geog')">Exames de Geografia<br/></a>
+                <div id="geog" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Geografia/Exame-de-Geografia-UP_2016.pdf">Exame-de-Geografia-UP_2016</a></li>
+                        <li><a href="UP/Exames de Geografia/Exame-de-Geografia-UP_2017.pdf">Exame-de-Geografia-UP_2017</a></li>
+                        <li><a href="UP/Exames de Geografia/Exame-de-Geografia-UP-2018.pdf">Exame-de-Geografia-UP-2018</a></li>
+                        <li><a href="UP/Exames de Geografia/Exame-de-Geografia-UP-2019.pdf">Exame-de-Geografia-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('hist')">Exames de Historia<br/></a>
+                <div id="hist" class="hidden">
+                    <ul>
+                        
+                        <li><a href="UP/Exames de Historia/Exame-de-Historia-UP_-2010.pdf">Exame-de-Historia-UP_-2010</a></li>
+                        <li><a href="UP/Exames de Historia/Exame-de-Historia-UP-2016.pdf">Exame-de-Historia-UP-2016</a></li>
+                        <li><a href="UP/Exames de Historia/Exame-de-Historia-UP-2017.pdf">Exame-de-Historia-UP-2017<br/></a></li>
+                   </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('ing')">Exames de Ingles<br/></a>
+                <div id="ing" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Ingles/Exame-de-Ingles-UP_-2013.pdf">Exame-de-Ingles-UP-2013</a></li>
+                        <li><a href="UP/Exames de Ingles/Exame-de-Ingles-UP-2016.pdf">Exame-de-Ingles-UP-2016</a></li>
+                        <li><a href="UP/Exames de Ingles/Exame-de-Ingles-UP-2017.pdf">Exame-de-Ingles-UP-2017</a></li>
+                        <li><a href="UP/Exames de Ingles/Exame-de-Ingles-UP-2019.pdf">Exame-de-Ingles-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('dese')">Exames de Desenho<br/></a>
+                <div id="dese" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Desenho/Exame-de-Desenho-UP_-2016.pdf">Exame-de-Desenho-UP-2016</a></li>
+                        <li><a href="UP/Exames de Desenho/Exame-de-Desenho-UP-2017.pdf">Exame-de-Desenho-UP-2017</a></li>
+                        <li><a href="UP/Exames de Desenho/Exame-de-Desenho-UP-2018.pdf">Exame-de-Desenho-UP-2018</a></li>
+                        <li><a href="UP/Exames de Desenho/Exame-de-Desenho-UP-2019.pdf">Exame-de-Desenho-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('quim')">Exames de Quimica<br/></a>
+                <div id="quim" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de Quimica/Exame-de-Quimica-UP-2013.pdf">Exame-de-Quimica-UP-2013</a></li>
+                        <li><a href="UP/Exames de Quimica/Exame-de-Quimica-UP-2016.pdf">Exame-de-Quimica-UP-2016</a></li>
+                        <li><a href="UP/Exames de Quimica/Exame-de-Quimica-UP-2017.pdf">Exame-de-Quimica-UP-2017</a></li>
+                        <li><a href="UP/Exames de Quimica/Exame-de-Quimica-UP-2018.pdf">Exame-de-Quimica-UP-2018</a></li>
+                        <li><a href="UP/Exames de Quimica/Exame-de-Quimica-UP-2019.pdf">Exame-de-Quimica-UP-2019<br/></a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('fran')">Exames de frances<br/></a>
+                <div id="fran" class="hidden">
+                    <ul>
+                        <li><a href="UP/Exames de frances/Exame-de--Frances-UP-2016.pdf">Exame-de-frances-UP-2016</a></li>
+                        <li><a href="UP/Exames de frances/Exame-de-Francês-UP-2017.pdf">Exame-de-Francês-UP-2017</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</body>
+<script src="scrpit_caminho.js"></script>
+</html>

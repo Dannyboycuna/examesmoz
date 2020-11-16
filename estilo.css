@@ -1,0 +1,140 @@
+
+body{
+    background-color: blanchedalmond;
+    top: -2vh;
+    height: auto;
+    
+}
+h1{position: absolute;
+    top: -0.5%;
+    font-size: larger;
+color: rgb(247, 99, 99);}
+div#main-menu{
+    width: 40vh;
+    
+    position: relative;
+    left: auto;
+    top: -3vh;
+    
+    min-height: 30vh;
+    max-width: 40vh;
+    height: auto;
+    font-size: larger;
+    background-color: gray;
+}
+div#main-menu li{
+    font-size: large;
+    position: relative;
+    left: -5%;
+}
+div#main-menu .editais li{
+    font-size: larger;
+
+}
+
+header li{
+    margin: 5%;
+    padding: 1%;
+}
+.hidden{
+    display: none;
+    transition: .5s;
+
+}
+#content{
+    font-size: larger;
+    padding: 20%;
+    position: absolute;
+    top: 0vh;
+    left: 40vh;
+    width:100vh;
+    min-height: 100vh;
+    height:auto;
+    
+    background-color: burlywood;
+}
+/*#exame12 div{
+    display: inline;
+}
+#UEM div{
+    display: inline;
+}
+#UP div{
+    display: list-item;
+}*/
+#UEM ul{
+    position: relative;
+    left: 10%;
+}
+#UP ul{
+    position: relative;
+    left: 10%;
+}
+#UEM div{
+    position: relative;
+    left: 5%;
+}
+#content #ver{
+    position: relative;
+    top: 5%;
+    font-size: larger;
+    color: black;
+}
+#content #verisri{
+
+    margin: 5%;
+    position: relative;
+    top: auto;
+    font-size: larger;
+    color: black;
+}
+#content #editais{font-size: larger;
+        position: relative;
+        top: auto;
+        margin: 5%;
+    }
+#content #verup{
+
+    position: relative;
+    top: auto;
+    font-size: larger;
+    color: black;
+    margin: 5%;
+}
+#content #decima{
+    position: relative;
+    top: 2%;
+    margin: 1%;
+    padding: 3%;
+}
+
+#main-menu{
+    font-size: larger;
+    background-color: blanchedalmond;
+    
+}
+#inicio{font-size: larger;
+}
+#inicio :hover {
+    background-color: #888888;
+    color: white;
+}
+
+
+footer p{
+
+    padding: 0px;
+    margin: 4px;
+    position: relative;
+    top: auto;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        display:none;
+    }
+}

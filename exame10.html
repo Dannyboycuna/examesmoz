@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exames 10a classe</title>
+    <link rel="stylesheet" href="estilo-copy.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="main-menu">
+        <button id="but" onclick="button()">≡</button>
+        <header id="Inicio" class="dec">            
+        <ul id="inicio">
+            <h1>Menu principal</h1>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#" onclick="showdecima()">Exames 10<sup>a</sup> classe</a></li>
+            <li><a href="exame12.html">Exames 12<sup>a</sup> classe</a></li>
+            <li><a href="Exameadmissao.html" onclick='showadmissao()'> Exames de admissão</a></li>
+            <li><a href="editais.html">Editais</a></li> 
+
+        </ul>
+
+        </header >
+        <div id="content" class="dec">
+            
+            
+                
+            <h1>Exames da 10ª classe</h1>
+                <ul id="exame12">
+                    <a href="#" onclick="showdisciplina('pt')"> Português</br></a>
+                    <div id="pt" class="hidden">
+                        <ul>
+                             <li><a href="10classe/portugues/Portugues-10-2011-1.pdf">Português-2011 1a época</a></li>
+                            <li><a href="10classe/portugues/portugues-10-2012-1.pdf">
+                                Português
+                                -2012 1a época </a></li>
+                            <li><a href="10classe/portugues/Portugues-10-2013-1.pdf"> Português-2013 1a época</a></li>
+                            <li><a href="10classe/portugues/Portugues-10-2014-2.pdf"> Português 2014 2a época</a></li>
+                            <li><a href="10classe/portugues/Portugues-10-2014-extra.pdf"> Português-2014 extraordinario</a></li>
+                        </ul>
+                    </div>
+                    
+                <a href="#" onclick="showdisciplina('mat')"> Matemática</br></a>
+                <div id="mat" class="hidden">
+                    <ul>
+                        <li ><a href="10classe/matematica/Matematica-10-2011-2.pdf"> Matemática 2011 1a época  </a></li>
+                        <li><a href="10classe/matematica/Matematica-10-2012-2.pdf"> Matemática 2012 2a época</a></li>
+                        <li><a href="10classe/matematica/Matematica-10-2013-2.pdf"> Matemática 2013 2a época</a></li>
+                        <li><a href="10classe/matematica/Matematica-10-2014-1.pdf"> Matemática 2014 1a época</a></li>
+                        <li><a href="10classe/matematica/Matematica-10-2014-2.pdf"> Matemática 2014 2a época</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('bio')"> Biologia</br></a>
+                <div id="bio" class="hidden">
+                    <ul>
+                        <li><a href="10classe/biologia/Biologia-10-2011-1.pdf"> Biologia 2011 1a época</a></li>
+                        <li><a href="10classe/biologia/Biologia-10-2012-2.pdf"> Biologia 2012 2a época</a></li>
+                        <li><a href="10classe/biologia/Biologia-10-2013- Extra.pdf"> Biologia 2013 Extraordinario</a></li>
+                        <li><a href="10classe/biologia/Biologia-10-2013-1.pdf"> Biologia 2013 1a época</a></li>
+                        <li><a href="10classe/biologia/Biologia-10-2014-extra.pdf"> Biologia 2014 Extraordinario</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('qui')"> Quimica</br></a>
+                <div id="qui" class="hidden">
+                    <ul>
+                        <li><a href="10classe/quimica/Quimica-10-2011-1.pdf"> Quimica 2011 1a época</a></li>
+                        <li><a href="10classe/quimica/Quimica-10-2012-1.pdf"> Quimica 2012 1a época</a></li>
+                        <li><a href="10classe/quimica/Quimica-10-2013-2.pdf"> Quimica 2013 2a época</a></li>
+                        <li><a href="10classe/quimica/Quimica-2013-Extra.pdf"> Quimica 2013 extraordinario</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('fis')"> Fisica</br></a>
+                <div id="fis" class="hidden">
+                    <ul>
+                        <li><a href="10classe/fisica/Fisica-10-2011-1.pdf"> Fisica 2011 1a época</a></li>
+                        <li><a href="10classe/fisica/Fisica-10-2011-2.pdf"> Fisica 2011 2a época</a></li>
+                        <li><a href="10classe/fisica/fisica-10-2012-2.pdf"> Fisica 2012 2a época</a></li>
+                        <li><a href="10classe/fisica/Fisica10-2013-1.pdf"> Fisica 2013 1a época</a></li>
+                        <li><a href="10classe/fisica/Fisica-10-2013-2.pdf"> Fisica 2013 2a época</a></li>
+                        <li><a href="10classe/fisica/Fisica-10-2014-1.pdf"> Fisica 2014 1a época</a></li>
+                        <li><a href="10classe/fisica/Fisica-10-2014-2.pdf"> Fisica 2014 2a época</a></li>
+                        <li><a href="10classe/fisica/Fisica-10-2014-extra.pdf"> Fisica 2014 extraordinario</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('en')"> Ingles</br></a>
+                <div id="en" class="hidden">
+                    <ul>
+                        <li><a href="10classe/ingles/Ingles-10-2013-1.pdf"> Ingles 2013 1a época</a></li>
+                        <li><a href="10classe/ingles/Ingles-10-2013-2.pdf"> Ingles 2013 2a época</a></li>
+                        <li><a href="10classe/ingles/Ingles-10-2014-2.pdf"> Ingles 2014 2a época</a></li>
+                        <li><a href="10classe/ingles/Ingles-10-2014-exxtra.doc"> Ingles 2014 extraordinario</a></li>
+                    </ul>
+                </div>
+                <a href="#" onclick="showdisciplina('his')">Historia</br></a>
+                <div id="his" class="hidden">
+                    <ul>
+                        <li><a href="10classe/historia/Historia-10-2011-1.pdf"> Historia 2011 1a época</a></li>
+                        <li><a href="10classe/historia/Historia 10CL 1EP 2011_Guiao.pdf"> Guiao Historia 20111 1a época</a></li>
+                        <li><a href="10classe/historia/História-10-2012-1.pdf"> Historia 2012 1a época</a></li>
+                        <li><a href="10classe/historia/História_Guia_10cla_1ªép 2012.pdf"> Guiao Historia 2012 1a época</a></li>
+                        <li><a href="10classe/historia/História-10-2012-2.pdf"> Historia 2012 1a época</a></li>
+                        <li><a href="10classe/historia/História_Guia_10cla_2ªép 2012.pdf"> Guiao Historia 2012 2a época</a></li>
+                        <li><a href="10classe/historia/História-10-2013-Extra.pdf"> Historia 2013 extraordinario</a></li>
+                        <li><a href="10classe/historia/Historia-10-2014-extra.pdf"> Historia 2014 extraordinario</a></li>
+                        <li><a href="10classe/historia/historia-2014-1.pdf"> Historia 2014 1a época</a></li>
+                        <li><a href="10classe/historia/Historia-10-2014-2.pdf"> Historia 2014 2a época</a></li>
+                    </ul>
+                </div>
+                
+            </ul>
+        </div>
+    </div>
+    
+</body>
+<script src="scrpit_caminho.js"></script>
+</html>
