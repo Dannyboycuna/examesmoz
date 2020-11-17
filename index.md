@@ -1,11 +1,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="0i-b_Qv_8pXpN_JZJN18YO8M999XAiszOo6EeHIrZ94" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exames Moz</title>
     <link rel="stylesheet" href="style_blog.css">
     <script src="script.js"></script>
+    <meta name="google-site-verification" content="0i-b_Qv_8pXpN_JZJN18YO8M999XAiszOo6EeHIrZ94" />
 </head>
 <body>
         
