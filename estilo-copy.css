@@ -51,7 +51,7 @@ footer{
     position: relative;
 
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:2000px){
     footer{width: 100vh;}
     .hidden li{font-size: large;
     text-align: left;}
