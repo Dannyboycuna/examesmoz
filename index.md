@@ -70,11 +70,11 @@
 var hora = new Date()
 var agora = hora.getHours()
 
-if (agora>3 && agora<12){msg.innerHTML=`Bom dia, ${nome}`}
+if (agora>3 && agora<12){msg.innerHTML=`Bom dia, ${nome}! `}
 
 else if(agora>11&& agora<18){msg.innerHTML=`Boa tarde, ${nome}! `}
 
-else{msg.innerHTML=`Boa noite, ${nome}`
+else{msg.innerHTML=`Boa noite, ${nome}!`
 }}
 				
 </script>
