@@ -34,22 +34,22 @@
 
         <div>
             <h1></h1>
-            <p>Devido a doença que assola o mundo, em particular o nosso país, algumas escolas não estando em funcionamento, surge aquela dúvida, "será que haverá exames?" Pergunta essa, feita principalmente por quem esteve ansioso para ingressar em uma universidade.
-                A doença não impede a realização dos exames, então, se você estava todo relaxado, melhor começar a se preparar desde já e assim evitará surpresas. Não esteja no grupo dos relaxados que esperam até ao último momento.   Tenha um raciocínio diferente dos “relaxados”. Aos que pretendem ingressar ao ensino superior, devem ter em mente que se trata de uma concorrência e qualquer falha pode ser fatal, diferente do ensino secundário. Não que precisam ficar relaxados, apenas uma questão de hierarquia.
+            <p>Seja bem vindo ao exames moz, o seu site de exames do ensino secundário, assim como exames de admissão de diferentes instituições do país.
+                Neste site, encontrará os exames que deseja de forma rápida e sem rodeios.
+      
                 
                 .<br/>
             
             </p>
             <p>
-                Até foram reabertas as escolas para as classes com exames, o que dá alguma esperança aos que ansiavam pelos exames de admissão assim como os que estão em classes com exames (alguns). Aqui poderá encontrar alguns exames de forma facilitada sem rodeios para que tenha uma melhor preparação. Eu já fiz a minha parte em disponibilizar os exames para vocês e, o que peço, é apenas que partilhe o site, assim, muitos estudantes terão acesso aos exames e poderão se preparar também. 
+                 Aqui poderá encontrar alguns exames de forma facilitada sem rodeios para que tenha uma melhor preparação. Eu já fiz a minha parte em disponibilizar os exames para vocês e, o que peço, é apenas que partilhe o site, assim, muitos estudantes terão acesso aos exames e poderão se preparar também. 
 
             </p>
             <p>Para sugestoes, clica <a href="http://facebook.com/Daniel.Cuna.524" target="_blank"> aqui </a>.</p>
             <nav id="menu" class="menu">
-                <ul>
+            
                
-                    <li><a href="ACIPOL/Edital_de_ACIPOL_2021.pdf">Edital Acipol 2021</a></li>
-                </ul>
+                 
             
             </nav>
             
