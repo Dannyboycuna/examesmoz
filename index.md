@@ -29,11 +29,10 @@
                 
             </ul>
         </nav>
-        
-            
-
-        <div>
+		   <div>
             <h1></h1>
+		<div>Seu nome: <input id='inputnome'></input><button onclick='clicar()'>Submeter</button></div>
+<h3 id='sauda'><strong></strong></h3>
             <p>Seja bem vindo ao exames moz, o seu site de exames do ensino secundário, assim como exames de admissão de diferentes instituições do país.
                 Neste site, encontrará os exames que deseja de forma rápida e sem rodeios.
       
@@ -57,9 +56,28 @@
     
     
     </div>
-    <footer><p>Ultima actualizacao-Novembro 2020- by Danny Boy</p>
+    <footer><p>Ultima actualizacao-Janeiro de 2022- &copy Danny Boy</p>
         <p><a href="http://facebook.com/Daniel.Cuna.524" target="_blank">facebook</a></p></footer>
 </body>
+    <script>
+			function clicar(){
+				var inputnome=document.getElementById('inputnome')
+				var nome=inputnome.value
+				var msg = document.getElementById('sauda')
+
+
+				
+var hora = new Date()
+var agora = hora.getHours()
+
+if (agora>3 && agora<12){msg.innerHTML=`Bom dia, ${nome}`}
+
+else if(agora>11&& agora<18){msg.innerHTML=`Boa tarde, ${nome}! `}
+
+else{msg.innerHTML=`Boa noite, ${nome}`
+}}
+				
+</script>
 <style>
 </style>
 </html>
