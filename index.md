@@ -31,7 +31,7 @@
         </nav>
 		   <div>
             <h1></h1>
-		<div>Seu nome: <input id='inputnome'></input><button onclick='clicar()'>Submeter</button></div>
+		<div>Seu nome: <input id='inputnome'><button onclick='clicar()'>Submeter</button></div>
 <h3 id='sauda'><strong></strong></h3>
             <p>Seja bem vindo ao exames moz, o seu site de exames do ensino secundário, assim como exames de admissão de diferentes instituições do país.
                 Neste site, encontrará os exames que deseja de forma rápida e sem rodeios.
