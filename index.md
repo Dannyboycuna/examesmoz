@@ -56,7 +56,7 @@
     
     
     </div>
-    <footer><p>Ultima actualizacao-Janeiro de 2022- &copy Danny Boy</p>
+    <footer><p>Ultima actualizacao-Janeiro de 2022- By Danny Boy</p>
         <p><a href="http://facebook.com/Daniel.Cuna.524" target="_blank">facebook</a></p></footer>
 </body>
     <script>
